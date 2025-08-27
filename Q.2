@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int n;
+int avg = 0;
+cout<<"Enter number of elements in the array:";
+cin>>n;
+cout<<endl;
+cout<<"Enter the elements:";
+for(int i =0;i<n;i++){
+   int a;
+   cin>>a;
+   avg += a;
+   
+}
+cout<<endl;
+
+if (n > 0) {
+        cout << "Average: " << avg*1.0 / n << endl;
+    } else {
+        cout << "Array size must be greater than 0." << endl;
+    }
+
+    return 0;
+
+}
